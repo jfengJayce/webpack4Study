@@ -1,0 +1,6 @@
+指令打包用：
+webpack app.js -o bundle.js
+
+配置文件打包用：
+webpack
+如果配置文件名不是webpack.config.js 用webpack --config <配置文件名>
