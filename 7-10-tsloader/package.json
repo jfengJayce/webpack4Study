@@ -1,0 +1,21 @@
+{
+  "name": "7-10-tsloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.35.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.14",
+    "typings": "^2.1.1"
+  }
+}

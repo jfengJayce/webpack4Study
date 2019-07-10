@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 let func = () => {};
 const NUM = 45;
 let arr = [1, 2, 3];

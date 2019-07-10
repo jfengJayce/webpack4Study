@@ -1,16 +1,16 @@
 module.exports = {
   mode: 'development',
   entry: {
-    app: './app.js'
+    'app': './src/app.ts'
   },
   output: {
-    filename: '[name].js'
+    filename: '[name].bundle.js'
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
-        use: 'babel-loader'
+        test: /\.tsx?$/,
+        use: 'ts-loader'
       }
     ]
   }
