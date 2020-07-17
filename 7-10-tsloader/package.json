@@ -15,7 +15,7 @@
     "webpack": "^4.35.3"
   },
   "dependencies": {
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "typings": "^2.1.1"
   }
 }
